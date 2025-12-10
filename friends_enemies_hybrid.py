@@ -50,7 +50,7 @@ def get_bqm(G):
         :obj:`BinaryQuadraticModel`: A binary-valued binary quadratic model
     """
     # Build the BQM
-
+    bqm - dimod.BinaryQuardraticModel("BINARY")
     # Add linear and quadratic biases to the BQM
 
     return bqm
